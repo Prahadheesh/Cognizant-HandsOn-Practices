@@ -1,0 +1,27 @@
+class Singleton {
+
+    private static Singleton obj = new Singleton();
+
+    private Singleton() {
+        System.out.println("Singleton object created.");
+    }
+
+    public static Singleton getInstance() {
+        return obj;
+    }
+}
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        Singleton a = Singleton.getInstance();
+        Singleton b = Singleton.getInstance();
+
+        if (a == b) {
+            System.out.println("Both variables refer to the same object.");
+        } else {
+            System.out.println("Different objects are created.");
+        }
+    }
+}

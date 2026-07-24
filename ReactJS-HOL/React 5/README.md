@@ -1,0 +1,1 @@
+Run:\ncd officespacerentalapp\nnpm install\nnpm start

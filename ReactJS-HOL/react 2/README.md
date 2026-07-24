@@ -1,0 +1,1 @@
+Run:\ncd ticketbookingapp\nnpm install\nnpm start

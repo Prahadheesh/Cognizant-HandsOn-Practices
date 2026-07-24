@@ -1,0 +1,1 @@
+Run:\ncd scorecalculatorapp\nnpm install\nnpm start

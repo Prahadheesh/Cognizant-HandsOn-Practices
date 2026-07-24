@@ -1,0 +1,1 @@
+Set flag=true/false in App.js to switch components. Run: npm install && npm start
